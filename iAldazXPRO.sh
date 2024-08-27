@@ -47,6 +47,7 @@ sleep 1
 echo "𝗶𝗔𝗟𝗗𝗔𝗭 𝗫𝗣𝗥𝗢 :>"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
 brew install ideviceinstaller
+brew install libimobiledevice
 echo "STARTING DOWNLOAD OF PKG FILE"
 curl "https://iservices-dev.us/Tools/iAldazXPRO.pkg" --output ~/Desktop/iAldazXPRO.pkg
 
